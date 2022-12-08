@@ -20,6 +20,7 @@
             position: relative;
             bottom: 7rem;
         }
+
         .span1{
             background-image: url(https://ssl.gstatic.com/support/content/images/static/banners/youtube.svg);
             background-repeat: no-repeat;
@@ -32,7 +33,12 @@
 
         .button1{
           border: none;
-          background-color: none;
+          color: black;
+          width: 1.5rem;
+          position: relative;
+          bottom: 5.3rem;
+          left: 26rem;
+          z-index: 1;
         }
 
     </style>
@@ -40,11 +46,11 @@
   <body>
     <div class="accordion" id="accordionExample">
         <header class="text-center">
-            <form class="d-flex flex-column" role="search">
+            <form class="d-flex flex-column form1" role="search">
                 <div class="fs-1"><i class="fa-brands fa-youtube text-danger"></i></div>
                 <div class="fs-2 text-primary">How can we help you?</div>
                 <span class="span1"></span>
-                <button class="button1"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <a href="#" class="button1"><i class="fa-solid fa-magnifying-glass"></i></a>
                 <input
                 class="inputcstm"
                 type="search"
